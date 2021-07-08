@@ -9,4 +9,4 @@ C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.Feb
 C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.dll
 C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\ref\Hahn.ApplicatonProcess.February2021.Domain.dll
 C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.pdb
-C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.csproj.AssemblyReference.cache
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.csprojAssemblyReference.cache

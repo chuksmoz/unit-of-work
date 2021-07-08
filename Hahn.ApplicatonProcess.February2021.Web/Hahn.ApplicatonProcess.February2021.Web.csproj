@@ -50,7 +50,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hahn.ApplicationProcess.December2020.Common\Hahn.ApplicationProcess.December2020.Common.csproj" />
     <ProjectReference Include="..\Hahn.ApplicatonProcess.February2021.Data\Hahn.ApplicatonProcess.February2021.Data.csproj" />
     <ProjectReference Include="..\Hahn.ApplicatonProcess.February2021.Domain\Hahn.ApplicatonProcess.February2021.Domain.csproj" />
   </ItemGroup>

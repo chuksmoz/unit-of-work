@@ -43,4 +43,38 @@ namespace Hahn.ApplicatonProcess.February2021.Domain.Validations
                 });
         }
     }
+
+    public class AssetUpdateValidator : AbstractValidator<UpdateAssetDto>
+    {
+        private readonly ICountryValidatorService _countryValidatorService;
+        public AssetUpdateValidator(ICountryValidatorService countryValidatorService)
+        {
+            _countryValidatorService = countryValidatorService;
+
+            RuleFor(a => a.AssetName)
+                .NotEmpty()
+                .MinimumLength(5);
+
+            RuleFor(a => a.Department)
+                .IsInEnum();
+
+            RuleFor(a => a.EMailAdressOfDepartment)
+                .NotEmpty()
+                .EmailAddress();
+
+            RuleFor(a => a.PurchaseDate)
+                .GreaterThanOrEqualTo(DateTime.Now.AddYears(-1));
+
+            RuleFor(a => a.Broken)
+                .NotNull();
+
+            RuleFor(a => a.CountryOfDepartment)
+                .NotEmpty()
+                .MustAsync(async (countryName, cancellation) =>
+                {
+                    return await _countryValidatorService.ValidateCountryByName(countryName);
+                });
+        }
+    }
+
 }

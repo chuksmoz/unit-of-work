@@ -5,12 +5,12 @@ import { AssetService } from '../../common/services/asset-service';
 
 @autoinject
 export class Index {
-  applicants: Asset[] = [];
+  asset: Asset[] = [];
 
   constructor(private _assetService: AssetService, private _dialogService: DialogService) {
   }
 
   async attached(): Promise<void>{
-    this.applicants = await this._assetService.getAll();
+    this.asset = await this._assetService.getAll();
   }
 }

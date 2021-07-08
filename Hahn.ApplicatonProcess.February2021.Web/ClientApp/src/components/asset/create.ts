@@ -61,16 +61,17 @@ export class Create {
   }
   
   activate(): void {
-    /* if(this.asset){
+    if(this.asset){
       ValidationRules
       .ensure((p: Asset) => p.assetName).required().minLength(5)
       .ensure((p: Asset) => p.eMailAdressOfDepartment).required().email()
-      .ensure((p: Asset) => p.countryOfDepartment).required().range(20,60)
-      .ensure((p: Asset) => p.department).required().minLength(5)
-      .ensure((p: Asset) => p.purchaseDate).required().minLength(10)
+      .ensure((p: Asset) => p.department).required()
+      .ensure((p: Asset) => p.purchaseDate).required()
       .on(this.asset);
+
+
       this.controller.addRenderer(new BootstrapFormRenderer());
-    } */
+    }
   }
 
   deactivate(): void{

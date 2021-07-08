@@ -3037,16 +3037,6 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Hahn.ApplicationProcess.December2020.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/Hahn.ApplicationProcess.December2020.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Hahn.ApplicationProcess.December2020.Common.dll": {}
-        }
-      },
       "Hahn.ApplicatonProcess.February2021.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -3086,7 +3076,6 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "FluentValidation.AspNetCore": "10.2.3",
-          "Hahn.ApplicationProcess.December2020.Common": "1.0.0",
           "Hahn.ApplicatonProcess.February2021.Data": "1.0.0",
           "Hahn.ApplicatonProcess.February2021.Domain": "1.0.0",
           "MediatR": "9.0.0",
@@ -9772,11 +9761,6 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "Hahn.ApplicationProcess.December2020.Common/1.0.0": {
-      "type": "project",
-      "path": "../Hahn.ApplicationProcess.December2020.Common/Hahn.ApplicationProcess.December2020.Common.csproj",
-      "msbuildProject": "../Hahn.ApplicationProcess.December2020.Common/Hahn.ApplicationProcess.December2020.Common.csproj"
     },
     "Hahn.ApplicatonProcess.February2021.Data/1.0.0": {
       "type": "project",

@@ -1,5 +1,6 @@
 ﻿using Hahn.ApplicatonProcess.February2021.Domain.Entities;
 using Hahn.ApplicatonProcess.February2021.Domain.interfaces;
+using Hahn.ApplicatonProcess.February2021.Domain.ViewModel;
 using Hahn.ApplicatonProcess.February2021.Web.Filters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +29,8 @@ namespace Hahn.ApplicatonProcess.February2021.Web.Controllers
             return await _assetService.GetAllAsset();
         }
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(Asset), 200)]
+        [ProducesResponseType(typeof(ErrorResponse), 400)]
         public async Task<ActionResult<Asset>> GetAssetById(int id)
         {
             var asset =  await _assetService.GetAssetById(id);
@@ -55,6 +58,8 @@ namespace Hahn.ApplicatonProcess.February2021.Web.Controllers
         /// </remarks>
         /// <param name="asset"></param> 
         [HttpPost]
+        [ProducesResponseType(typeof(Asset), 201)]
+        [ProducesResponseType(typeof(ErrorResponse), 400)]
         public async Task<ActionResult<Asset>> CreateAsset(CreateAssetDto asset)
         {
             var (error, data) = await _assetService.CreateAsset(asset);
@@ -85,6 +90,8 @@ namespace Hahn.ApplicatonProcess.February2021.Web.Controllers
         /// <param name="id"></param> 
         /// <param name="asset"></param> 
         [HttpPut("{id}")]
+        [ProducesResponseType(typeof(Asset), 200)]
+        [ProducesResponseType(typeof(ErrorResponse), 400)]
         public async Task<ActionResult<Asset>> UpdateAsset(int id, UpdateAssetDto asset)
         {
             var (error, data) = await _assetService.UpdateAsset(id, asset);
@@ -97,6 +104,8 @@ namespace Hahn.ApplicatonProcess.February2021.Web.Controllers
 
         /// <param name="id"></param> 
         [HttpDelete("{id}")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(typeof(ErrorResponse), 400)]
         public async Task<IActionResult> DeleteAsset(int id)
         {
             await _assetService.DeleteAsset(id);
