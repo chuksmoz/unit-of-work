@@ -1,0 +1,104 @@
+<template>
+
+  <div class="container py-3">
+    <div class="row">
+      <div class="mx-auto col-sm-6">
+        <!-- form user info -->
+        <div class="card">
+            <div class="card-header">
+                <h4 class="mb-0">Application Form</h4>
+            </div>
+            <div class="card-body">
+                <form class="form" role="form" submit.delegate="submit()">
+                    <!-- <div class="form-group row">
+                        <label class="form-control" y="translation:asset-name">Asset Name</label>
+                        <div class="form-control info">
+                            <input class="form-control" type="text" value.bind="asset.assetName & validate">
+                        </div>
+                    </div> -->
+                    
+                    
+                    <div class="form-group info">
+                      <label>Asset Name</label>
+                      <input class="form-control" value.bind="asset.assetName & validate" >
+                    </div>
+                    <div class="form-group">
+                      <label for="department">Department</label>
+                      <select class="form-control" id="department">
+                        <option model.bind="null">select --</option>
+                        <option repeat.for="department of departments" model.bind="department.id">
+                          ${department.name}
+                        </option>
+                      </select>
+                    </div>
+
+                    <div class="form-group info">
+                      <label>Country Of Department</label>
+                      <input class="form-control" value.bind="asset.countryOfDepartment & validate">
+                    </div>
+
+                    <div class="form-group info">
+                      <label>Purchase Date</label>
+                      <!-- <input class="form-control" value.bind="asset.purchaseDate & validate" type="datetime"> -->
+                      <abp-datetime-picker value.bind="asset.purchaseDate & validate" with-date-icon="true" options.bind="{ format: 'YYYY-MM-DD' }"></abp-datetime-picker>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value.bind="asset.broken & validate" id="invalidCheck2">
+                        <label class="form-check-label" for="invalidCheck2">
+                          Broken
+                        </label>
+                      </div>
+                    <!-- <div class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label" t="translation:FamilyName">Country Of Department</label>
+                        <div class="col-lg-9 info">
+                            <input class="form-control" type="text" value.bind="asset.countryOfDepartment & validate" >
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label">EMailAdress Of Departmen</label>
+                        <div class="col-lg-9 info">
+                            <input class="form-control" type="email" value.bind="asset.EmailAddress & validate">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label">Address</label>
+                        <div class="col-lg-9 info">
+                            <input class="form-control" type="text" value.bind="asset.Address & validate">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label">Country Of Origin</label>
+                        <div class="col-lg-9 info">
+                            <input class="form-control" value.bind="asset.CountryOfOrigin & validate">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-lg-3 col-form-label form-control-label">Age</label>
+                      <div class="col-lg-9 info">
+                          <input class="form-control lop" value.bind="asset.Age & validate">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label class="col-lg-3 col-form-label form-control-label">Hired</label>
+                      <div class="col-lg-9">
+                          <input type="checkbox" class="form-control" checked.bind="asset.Hired">
+                      </div>
+                    </div> -->
+                    <div class="form-group row">
+                        <label class="col-lg-3 col-form-label form-control-label"></label>
+                        <div class="col-lg-9">
+                            <input type="reset" class="btn btn-secondary" value="Reset"  click.delegate="showModal()">
+                            <!-- <input type="button" class="btn btn-primary" value="Save Changes"> -->
+                            <button class="btn btn-primary" disabled.bind="controller.errors.length > 0"  .>Save Changes</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- /form user info -->
+    </div>
+  </div>
+</div>
+
+</template>

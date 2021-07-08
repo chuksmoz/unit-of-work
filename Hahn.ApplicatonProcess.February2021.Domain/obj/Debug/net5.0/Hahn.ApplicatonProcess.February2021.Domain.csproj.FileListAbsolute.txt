@@ -1,0 +1,12 @@
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\bin\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.deps.json
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\bin\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.dll
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\bin\Debug\net5.0\ref\Hahn.ApplicatonProcess.February2021.Domain.dll
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\bin\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.pdb
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.AssemblyInfoInputs.cache
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.AssemblyInfo.cs
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.csproj.CoreCompileInputs.cache
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.dll
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\ref\Hahn.ApplicatonProcess.February2021.Domain.dll
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.pdb
+C:\Moses\Advansio\Hahn.ApplicationProcess.Application\Hahn.ApplicatonProcess.February2021.Domain\obj\Debug\net5.0\Hahn.ApplicatonProcess.February2021.Domain.csproj.AssemblyReference.cache

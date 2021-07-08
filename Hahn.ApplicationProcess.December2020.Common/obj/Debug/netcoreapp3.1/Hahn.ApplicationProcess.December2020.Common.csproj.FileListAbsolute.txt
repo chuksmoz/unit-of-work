@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.deps.json
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.dll
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\bin\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.pdb
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.csprojAssemblyReference.cache
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.AssemblyInfo.cs
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.dll
+C:\Users\admin\source\repos\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.December2020.Common\obj\Debug\netcoreapp3.1\Hahn.ApplicationProcess.December2020.Common.pdb

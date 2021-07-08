@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hahn.ApplicatonProcess.February2021.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Hahn.ApplicatonProcess.February2021.Web.Controllers.AssetsController.CreateAsset(Hahn.ApplicatonProcess.February2021.Domain.Entities.Asset)">
+            <summary>
+            Creates an Asset.
+            </summary>
+            <remarks>
+              Sample request:
+
+              POST api/v1/Assets
+              {
+              "AssetName" : "passport",
+              "Broken": true,
+              "CountryOfDepartment": "Nigeria",
+              "EMailAdressOfDepartment": "test@test.com",
+              "Department": 1
+              "PurchaseDate": "07/04/2021"
+              }
+            </remarks>
+            <param name="asset"></param> 
+        </member>
+    </members>
+</doc>
